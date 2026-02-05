@@ -1,0 +1,12 @@
+MOV A, #06H
+MOV B, #16
+MUL AB
+ADD A, #02H
+MOV R0, A
+
+MOV A, #07H
+MOV B, #16
+MUL AB
+ADD A, #06H
+
+MOV B, R0
